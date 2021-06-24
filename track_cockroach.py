@@ -1,6 +1,7 @@
 import cv2
 import sys
 import pyautogui
+#import keyboard 鍵盤備用方案
 def target_tracking(tracker):
     # 0 會抓第一台攝影機 ，如果是放影片路徑，就會去抓影片。
     video = cv2.VideoCapture(0)
@@ -58,21 +59,21 @@ def target_tracking(tracker):
             y = int(bbox[1])
             if y >= 90 and y <=157:
                 pyautogui.press('up')
-
+                #keyboard.press_and_release('up')
                 cv2.putText(frame, "direction : " + "up", (100,90), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50,170,50), 2);
                 
             elif y >= 158 and y <= 224:
                 pyautogui.press('left')
-
+                #keyboard.press_and_release('left')
                 cv2.putText(frame, "direction : " + "left", (100,90), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50,170,50), 2);
                 
             elif y >= 225 and y <= 292:
                 pyautogui.press('right')
-
+                #keyboard.press_and_release('right')
                 cv2.putText(frame, "direction : " + "right", (100,90), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50,170,50), 2);
             elif y >= 293 and y <= 360:
                 pyautogui.press('up')
-
+                #keyboard.press_and_release('up')
                 cv2.putText(frame, "direction : " + "down", (100,90), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50,170,50), 2);
                 
             count = 0
