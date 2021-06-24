@@ -200,7 +200,10 @@ elif y >= 293 and y <= 360:
 ## 未來展望
 - 希望可以達成跟寵物一起玩遊戲，排解防疫期間的孤獨感，避免防疫期間所產生的心理問題。
 - 還可以讓小寵物進行遊戲實況，讓小寵物賺自己的飼料費。
-- 使主人跟小寵物一起遊玩遊戲。
+
+## Thank To
+@vincentinttsh 
+@我的小強
 ## 參考資料
 - [pygame 迷宮](https://github.com/Wonz5130/Maze_AI)
 - [pygame Tetris](https://levelup.gitconnected.com/writing-tetris-in-python-2a16bddb5318)
