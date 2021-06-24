@@ -67,9 +67,9 @@ Any Game
 ### 小寵物部分
 
 :::info
+
 **容器**
 ![](https://i.imgur.com/YWo8BSt.jpg)
-
 :::
 
 :::info
