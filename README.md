@@ -53,14 +53,14 @@ Any Game
 - ```sudo apt install libatlas-base-dev```
 - ```sudo pip3 install tensorflow-2.3.0-cp37-cp37m-linux_armv7l.whl```
 - ```sudo pip3 install keras```
-:::info
+| info:
 如果 tensorflow 無法安裝，請[**點擊這裡**](https://github.com/lhelontra/tensorflow-on-arm/releases)，
 並下載 tensorflow-2.3.0-cp37-none-linux_armv7l.whl
 然後執行 `sudo pip3 install tensorflow-2.3.0-cp37-none-linux_armv7l.whl`
 - 若出現 wrapt 的相關 error
     - 請參考[**這篇文章**](https://raspberrypi.stackexchange.com/questions/117231/cannot-uninstall-wrapt-1-10-11)
 - 恭喜你應該就會成功了
-:::
+|
 
 ## 操作說明
 
