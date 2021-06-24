@@ -48,6 +48,7 @@ Any Game
 - ```sudo pip3 install opencv-contrib-python```記得一定要加 **sudo**，不然會跳出 error。然後我就去編譯 OpenCv ，編譯了一個晚上還不能用，哭阿。
     - 在樹莓派上安裝此套件可能需要將近**五小時**，建議睡前安裝
 - ```sudo pip3 install pyautogui``` 模擬鍵盤輸入
+- ```sudo pip3 install keyboard``` 模擬鍵盤輸入-備用方案
 - ```sudo pip3 install pygame```
 - ```sudo apt install libatlas-base-dev```
 - ```sudo pip3 install tensorflow-2.3.0-cp37-cp37m-linux_armv7l.whl```
