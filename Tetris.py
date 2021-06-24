@@ -1,6 +1,5 @@
 import pygame
 import random
-from threading import Thread
 import cv2
 import sys
 import time
@@ -446,11 +445,8 @@ def main():
 if __name__ == '__main__':
     try:
         main()
-        #t2 = Thread(target = target_tracking)
 
-        
-        #@#t2.start()
     except KeyboardInterrupt:
         
-        #t2.stop()
+
         pass
