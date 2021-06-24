@@ -53,28 +53,28 @@ Any Game
 - ```sudo apt install libatlas-base-dev```
 - ```sudo pip3 install tensorflow-2.3.0-cp37-cp37m-linux_armv7l.whl```
 - ```sudo pip3 install keras```
-| info:
+
 如果 tensorflow 無法安裝，請[**點擊這裡**](https://github.com/lhelontra/tensorflow-on-arm/releases)，
 並下載 tensorflow-2.3.0-cp37-none-linux_armv7l.whl
 然後執行 `sudo pip3 install tensorflow-2.3.0-cp37-none-linux_armv7l.whl`
 - 若出現 wrapt 的相關 error
     - 請參考[**這篇文章**](https://raspberrypi.stackexchange.com/questions/117231/cannot-uninstall-wrapt-1-10-11)
 - 恭喜你應該就會成功了
-|
+
 
 ## 操作說明
 
 ### 小寵物部分
 
-:::info
+
 
 **容器**
 ![](https://i.imgur.com/YWo8BSt.jpg)
-:::
 
-:::info
+
+
 請搭配 `track_cockroach.py` 跟 `Tetris.py` 使用
-:::
+
 - 請開兩個 Terminal，分別執行 `track_cockroach.py` 跟 `Tetris.py`
     - 建議先執行 `track_cockroach.py`
     - 執行後會出現一個視窗請自行框出小寵物的位置
@@ -87,11 +87,10 @@ Any Game
 
 - 兩個程式開始執行時，請一定要記得選取到遊戲視窗，不然會沒反應喔。
 
-:::info
+
 **Opencv tracker**
 我們所使用的函數是 **CSRT** ，它可以在 fps 較低時，保持良好的精準度。
-:::
-:::info
+
 **容器範圍**
 可以依照個人需求
 更改條件式中 y 座標的界線
