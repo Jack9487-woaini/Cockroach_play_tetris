@@ -3,7 +3,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import cv2
 import pyautogui as pyau
-# Disable scientific notation for clarity
+# import keyboard
 np.set_printoptions(suppress=True)
 
 # 載入模型
@@ -54,18 +54,20 @@ while True:
     count += 1
     # 看誰機率最高
     if score.index(max(score)) == 0 and count >= 5:
-        
+        #keyboard.press_and_release('up')
         #pyau.press('up')
         count = 0
     elif score.index(max(score)) == 1 and count >= 5:
-        
+        #keyboard.press_and_release('space')
         #pyau.press('space')
         count = 0
     elif score.index(max(score)) == 2 and count >= 5:
         count = 0
+        #keyboard.press_and_release('left')
         #pyau.press('left')
     elif score.index(max(score)) == 3 and count >= 5:
         count = 0
+        #keyboard.press_and_release('right')
         #pyau.press('right')
     else:
         pass
